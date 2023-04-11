@@ -14,6 +14,7 @@
 		29D859EA29E60E8B00EE03B2 /* Number_guessTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29D859E929E60E8B00EE03B2 /* Number_guessTests.swift */; };
 		29D859F429E60E8B00EE03B2 /* Number_guessUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29D859F329E60E8B00EE03B2 /* Number_guessUITests.swift */; };
 		29D859F629E60E8B00EE03B2 /* Number_guessUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29D859F529E60E8B00EE03B2 /* Number_guessUITestsLaunchTests.swift */; };
+		29D85A0329E6151000EE03B2 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29D85A0229E6151000EE03B2 /* ViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		29D859EF29E60E8B00EE03B2 /* Number guessUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Number guessUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		29D859F329E60E8B00EE03B2 /* Number_guessUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Number_guessUITests.swift; sourceTree = "<group>"; };
 		29D859F529E60E8B00EE03B2 /* Number_guessUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Number_guessUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		29D85A0229E6151000EE03B2 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 			children = (
 				29D859D829E60E8A00EE03B2 /* Number_guessApp.swift */,
 				29D859DA29E60E8A00EE03B2 /* ContentView.swift */,
+				29D85A0229E6151000EE03B2 /* ViewModel.swift */,
 				29D859DC29E60E8B00EE03B2 /* Assets.xcassets */,
 				29D859DE29E60E8B00EE03B2 /* Preview Content */,
 			);
@@ -258,6 +261,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				29D859DB29E60E8A00EE03B2 /* ContentView.swift in Sources */,
+				29D85A0329E6151000EE03B2 /* ViewModel.swift in Sources */,
 				29D859D929E60E8A00EE03B2 /* Number_guessApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

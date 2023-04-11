@@ -8,14 +8,31 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    @State var userInput: String = ""
+    @State var viewModel = ViewModel(min: 1, max: 20)
+    
     var body: some View {
         VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+            Image(systemName: "questionmark.bubble")
+                .resizable()
+                .frame(width: 50.0, height: 50.0)
+                .foregroundColor(.purple)
+                .padding(.top, 50)
+            Text("I am thinking of a number between \(viewModel.minNumber) and \(viewModel.maxNumber)")
+                .padding(.bottom)
+            Text(viewModel.display)
+                .fontWeight(.bold)
+                .multilineTextAlignment(.center)
+            TextField("Guess Number", text: $userInput)
+                .keyboardType(.numberPad)
+            Button("Try") {
+                viewModel.tryNumber(input: userInput)
+            }
+            Spacer()
         }
         .padding()
+        .buttonStyle(.borderedProminent)
     }
 }
 
